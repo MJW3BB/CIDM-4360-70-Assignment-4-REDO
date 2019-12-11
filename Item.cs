@@ -4,6 +4,11 @@ using System.Collections.Generic;
 // Used to track information of each item in the store.
 class Item
 {
+    // Attributes
+    int ID;
+    string Description;
+    float AvailableQty;
+    float UnitPrice;
     // Main Constructor.
     public Item()
     {

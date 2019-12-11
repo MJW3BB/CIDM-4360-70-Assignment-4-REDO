@@ -3,22 +3,25 @@ using System.Collections.Generic;
 
 class Invoice
 {
-    public Invoice()
+    int InvNum;
+    string nvDate;
+    float total;
+    public Invoice(int number, string date)
     {
-
+        
     }
     //  Creates a new invoice entry (InvoiceEntry object ) and add it to the invoice.
-    public bool addInvEntry()
+    public bool addInvEntry(int ReqQuantity) // Item
     {
 
     }
     // Removes invoiceEntry object from the invoice using the passed line number.
-    public bool removeInvEntry()
+    public bool removeInvEntry(int lineNumber)
     {
 
     }
     // Updates the invoice total attribute using the passed newValue by adding or subtracting  the newValue to/from the current total.
-    public void updateTotal()
+    public void updateTotal(float newValue)
     {
 
     }
