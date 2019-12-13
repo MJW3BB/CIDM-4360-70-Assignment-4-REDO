@@ -22,21 +22,21 @@ class Item
     // Returns the item’s unit price.
     public float getPrice()
     {
-
+        return UnitPrice;
     }
     // Returns the item’s description.
     public string getItemDescription()
     {
-
+        return Description;
     }
     // Returns the item’s id. 
     public int getItemID()
     {
-
+        return ID;
     }
     // Displays the item information to the console (id, description, price, available.
     public void displayItem()
     {
-
+        Console.WriteLine($"\t{Convert.ToString(ID)}   {Description}\t {UnitPrice}\t {AvailableQty}");
     }
 }
