@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CIDM-4360-70-Assignment-4-REDO/1.0.0": {
+        "runtime": {
+          "CIDM-4360-70-Assignment-4-REDO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CIDM-4360-70-Assignment-4-REDO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

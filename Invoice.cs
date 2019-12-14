@@ -17,7 +17,7 @@ class Invoice
         InvDate = invoiceDate;
     }
     //  Creates a new invoice entry (InvoiceEntry object ) and add it to the invoice.
-    public bool addInvEntry(int AIDQnty, Item sku)
+    public bool addInvEntry(Item sku,int AIDQnty)
     {
         if(sku.updateAvlblQty(AIDQnty) == true) // If the available quantity is >= 0, get the price and add it to the list.
         {

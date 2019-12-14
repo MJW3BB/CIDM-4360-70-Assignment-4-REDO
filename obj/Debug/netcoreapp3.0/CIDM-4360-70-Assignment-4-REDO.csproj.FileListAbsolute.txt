@@ -1,0 +1,11 @@
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.exe
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.deps.json
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.runtimeconfig.json
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.runtimeconfig.dev.json
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.dll
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\bin\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.pdb
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.csprojAssemblyReference.cache
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.AssemblyInfoInputs.cache
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.AssemblyInfo.cs
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.dll
+D:\Files\Documents\Code Repo\CIDM-4360-70-Assignment-4-REDO\obj\Debug\netcoreapp3.0\CIDM-4360-70-Assignment-4-REDO.pdb
