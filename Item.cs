@@ -49,6 +49,6 @@ class Item
     // Displays the item information to the console (id, description, price, available.
     public void displayItem()
     {
-        Console.WriteLine($"\t {Convert.ToString(ID)}{Description}\t {UnitPrice}\t {AvailableQty}");
+        Console.WriteLine($"\t{Convert.ToString(ID)}  {Description}\t {UnitPrice}\t {AvailableQty}");
     }
 }

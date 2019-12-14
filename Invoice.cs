@@ -45,6 +45,7 @@ class Invoice
                     itemList.RemoveAt(lineNumber-1);  // remove the specified quantity
                     updateLineNumbers(); // update the line number of the Invoice Entry
                     printInvoice(); // print it to the console
+                    
                     pass = true; // exit loop
                 }
             }
@@ -61,6 +62,7 @@ class Invoice
         foreach(InvoiceEntry sku in itemList)
         {
             sku.setLineNumber(invNums);
+            //invNums++;
         }
     }
     // display the invoice to the console by printing all the voice information (invoice number, date, all invoice entries
@@ -74,7 +76,7 @@ class Invoice
         foreach(InvoiceEntry c in itemList)
         {
             entryTotal = c.itemNumber.getPrice() * c.getQnty();
-            Console.WriteLine($"{Convert.ToString(c.getLineNumber())}{c.itemNumber.getItemDescription()}\t{c.getQnty()}\t{c.itemNumber.getPrice()}    {entryTotal}");
+            Console.WriteLine($"{Convert.ToString(c.getLineNumber())}{c.itemNumber.getItemDescription()}\t{c.getQnty()}\t{c.itemNumber.getPrice()}{entryTotal}");
             updateTotal(entryTotal);  
         }
         Console.WriteLine("------- -------------- ------- ------- -------");
