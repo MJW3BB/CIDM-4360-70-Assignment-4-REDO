@@ -10,14 +10,26 @@ class Item
     float AvailableQty;
     float UnitPrice;
     // Main Constructor.
-    public Item()
+    public Item(int itemID, string itemDesc, float itemPrice, float itemQty)
     {
-
+        ID = itemID;
+        Description = itemDesc;
+        UnitPrice = itemPrice;
+        AvailableQty = itemQty;
     }
     // Updates the current available quantity by adding/subtracting the passed value, and returns the new quantity.
-    public bool updateAvlblQty()// Passed value
+    public bool updateAvlblQty(float updateAvlblQtyPrivValue)
     {
-
+        float num = updateAvlblQtyPrivValue;
+        if(AvailableQty - updateAvlblQtyPrivValue >= 0)
+        {
+            Console.WriteLine("The new quantity of this item is " + num);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
     // Returns the item’s unit price.
     public float getPrice()
@@ -37,6 +49,6 @@ class Item
     // Displays the item information to the console (id, description, price, available.
     public void displayItem()
     {
-        Console.WriteLine($"\t{Convert.ToString(ID)}   {Description}\t {UnitPrice}\t {AvailableQty}");
+        Console.WriteLine($"\t {Convert.ToString(ID)}{Description}\t {UnitPrice}\t {AvailableQty}");
     }
 }

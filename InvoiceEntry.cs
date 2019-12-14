@@ -8,7 +8,8 @@ class InvoiceEntry
     int LineNo;
     int Qnty;
     public Item itemNumber;
-    // Returns the line number (lineNo) of the invoice entry 
+    // Class Constructor
+    // Returns the line number (lineNo) of the invoice entry
     public InvoiceEntry(Item item,int line, int quantity)
     {
         itemNumber=item;
