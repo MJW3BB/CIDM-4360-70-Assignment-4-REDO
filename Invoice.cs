@@ -1,3 +1,9 @@
+/*
+Matthew Webb
+Gabriela Valenzuela
+CIDM 4360-70
+Assignment 4 REDO
+*/
 using System;
 using System.Collections.Generic;
 
